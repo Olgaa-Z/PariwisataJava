@@ -27,11 +27,25 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
+    //library untuk image carouselview
     implementation 'com.synnapps:carouselview:0.1.5'
     implementation 'com.squareup.picasso:picasso:2.5.2'
 
+    //library untuk cardview,recyclerview, design material
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'com.google.android.material:material:1.1.0'
+
+    //library untuk SwipeRefresh webview
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+
+    //library untuk play video youtube
+    implementation files('libs/YouTubeAndroidPlayerApi.jar')
+//    implementation "com.psoffritti.librarysampleapptemplate:core:$versions.sampleAppTemplate"
+
+    //library untuk image "glide"
+    implementation 'com.github.bumptech.glide:glide:4.8.0'
+//    kapt 'com.github.bumptech.glide:compiler:4.9.0'
+
+    implementation 'com.google.android.gms:play-services-maps:16.1.0'
 }

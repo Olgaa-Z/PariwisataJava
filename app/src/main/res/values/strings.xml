@@ -1,3 +1,42 @@
 <resources>
     <string name="app_name">WISATA NTT</string>
+    <string name="pulaukomodo">
+        Pulau Komodo berada di Kepulauan Nusa Tenggara. Pulau ini masuk dalam kawasan Taman Nasional Komodo bersama Pulau Rinca, Pulau Padar, Pulau Motang
+    dan banyak pulau-pulau kecil lainnya. Secara administratif, pulau ini berada di Kecamatan Komodo, Kabupaten Manggarai Barat,
+    dan berbatasan langsung dengan Provinsi Nusa Tenggara Barat.
+    Pulau ini merupakan habitat asli binatang komodo, sejenis kadal raksasa pemakan daging.\n\n
+    Di Pulau Komodo terdapat lebih dari 2.000 ekor komodo yang hidup di alam bebas.
+    Anda bisa melihat komodo yang sedang mengincar mangsanya di banyak lokasi di tempat ini.
+    Sangat penting untuk berkeliling bersama pemandu untuk alasan keselamatan selama berada di sini.\n\n
+    Pada tahun 1986, UNESCO menetapkan Pulau Komodo dan pulau-pulau lain di kawasan Taman Nasional Komodo sebagai
+    situs warisan dunia karena keberadaan komodo yang hanya bisa ditemui di kawasan ini.
+    Habitat dari hewan yang terancam punah ini adalah alam terbuka dengan padang rumput, pantai berpasir putih dan hutan hujan tropis.\n\n
+
+    Komodo sendiri merupakan binatang reptil sejenis kadal raksasa pemakan daging yang panjangnya bisa mencapai 2 – 3 meter
+    dengan berat 100 – 165 kg. Binatang ini memiliki nama ilmiah Varanus Komodoensis, sedangkan warga setempat menyebut binatang ini
+    dengan nama ‘Ora’. Jika dilihat, komodo memang menyeramkan, dengan badan yang besar, kuku yang tajam,
+    kulit yang bersisik dan memiliki lidah bercabang dua yang selalu menjulur. Mangsa utama komodo adalah babi, kuda, rusa, musang,
+    kerbau dan beruk.\n\n
+
+    Pada tahun 1910, Letnan Steyn Van Hens Broek pergi ke Pulau Komodo untuk membuktikan laporan pasukannya yang mengatakan bahwa
+    terdapat binatang semacam naga di pulau ini. Broek bersama pasukannya yang sudah terlatih kemudian memutuskan untuk datang
+    ke pulau ini untuk memburu binatang tersebut. Dia dan pasukannya berhasil membunuh satu komodo yang kemudian difoto dan dikirim ke Botanical
+    Garden di Bogor.\n\n
+
+    </string>
+
+    <string name="sejarahpulaukomodo">
+    Pada tahun 1910, Letnan Steyn Van Hens Broek pergi ke Pulau Komodo untuk membuktikan laporan pasukannya yang mengatakan bahwa
+    terdapat binatang semacam naga di pulau ini. Broek bersama pasukannya yang sudah terlatih kemudian memutuskan untuk datang
+    ke pulau ini untuk memburu binatang tersebut. Dia dan pasukannya berhasil membunuh satu komodo yang kemudian difoto dan dikirim ke Botanical
+    Garden di Bogor.\n\n
+    Tahun 1912 adalah tahun pertama kali keberadaan komodo diketahui umum melalui jurnal yang ditulis Peter A. Ouwens dan dimuat
+    di surat kabar harian milik Hindia Belanda. Ouwens merupakan Direktur Museum Zoologi di Bogor. Kemudian pada tahun 1915,
+    pemerintahan Belanda mulai melarang pemburuan komodo karena khawatir binatang ini akan punah.\n\n
+    Copyright (C) - Sumber : AnekaTempatWisata.com https://anekatempatwisata.com/wisata-indonesia-pulau-komodo-nusa-tenggara-timur/ .
+    </string>
+
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
 </resources>

@@ -1,18 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:orientation="vertical"
     tools:context=".BerandaActivity">
 
-    <ImageView
-        android:src="@drawable/ntt2"
-        android:layout_width="wrap_content"
-        android:layout_height="235dp">
 
+
+    <ImageView
+        android:src="@drawable/pulaukomodo"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="230dp">
     </ImageView>
 
+    <TextView
+        android:text="PULAU  KOMODO"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:text="@string/pulaukomodo"
+        android:textColor="@color/black"
+        android:paddingLeft="15sp"
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:text="SEKILAS SEJARAH PULAU KOMODO"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <ImageView
+        android:src="@drawable/pulau"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="230dp">
+    </ImageView>
+
+    <TextView
+        android:text="@string/sejarahpulaukomodo"
+        android:textColor="@color/black"
+        android:paddingLeft="15sp"
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
 </LinearLayout>
+</ScrollView>

@@ -48,12 +48,13 @@ public class MainActivity extends AppCompatActivity {
         CardView lokasi = (CardView) findViewById(R.id.lokasiwisata);
         CardView video = (CardView) findViewById(R.id.videowisata);
         CardView galeri = (CardView) findViewById(R.id.galeriwisata);
+
         CardView tentang = (CardView) findViewById(R.id.tentangwisata);
+        //Aksi menu saat diklik
         home.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,BerandaActivity.class);
-//                i.putExtra("name", name.getText().toString());
                 startActivity(i);
             }
         });
@@ -62,7 +63,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,PortalActivity.class);
-//                i.putExtra("name", name.getText().toString());
                 startActivity(i);
             }
         });
@@ -71,7 +71,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,BerandaActivity.class);
-//                i.putExtra("name", name.getText().toString());
                 startActivity(i);
             }
         });
@@ -79,8 +78,7 @@ public class MainActivity extends AppCompatActivity {
         video.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this,BerandaActivity.class);
-//                i.putExtra("name", name.getText().toString());
+                Intent i = new Intent(MainActivity.this,VideoActivity.class);
                 startActivity(i);
             }
         });
@@ -88,8 +86,7 @@ public class MainActivity extends AppCompatActivity {
         galeri.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this,BerandaActivity.class);
-//                i.putExtra("name", name.getText().toString());
+                Intent i = new Intent(MainActivity.this,ImageActivity.class);
                 startActivity(i);
             }
         });
@@ -98,7 +95,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this,TentangActivity.class);
-//                i.putExtra("name", name.getText().toString());
                 startActivity(i);
             }
         });

@@ -17,7 +17,7 @@ public class PortalActivity extends AppCompatActivity implements SwipeRefreshLay
     WebView webView;
     WebSettings webSettings;
 
-    String URL = "http://www.lauwba.com";
+    String URL = "http://lauwba.com /";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
