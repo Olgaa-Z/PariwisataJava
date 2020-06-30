@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         lokasi.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this,BerandaActivity.class);
+                Intent i = new Intent(MainActivity.this,MapsActivity.class);
                 startActivity(i);
             }
         });

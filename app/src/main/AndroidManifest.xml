@@ -18,26 +18,33 @@
         android:usesCleartextTraffic="true">
         <activity android:name=".MapFragment"></activity>
         <activity android:name=".OneFragment" />
-        <activity android:name=".MapsActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".MapsActivity"
+            android:label="Maps"
+            android:parentActivityName=".MainActivity">
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
-        <activity android:name=".ImageActivity" />
+        <activity android:name=".ImageActivity"
+            android:label="Galeri"
+            android:parentActivityName=".MainActivity">
+        </activity>
         <activity android:name=".ImageAdapter" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyAYmbOhDRWXLw3Oj4XxtC13RSZkMZ9QIw4" />
 
-        <activity android:name=".VideoActivity" />
+        <activity android:name=".VideoActivity"
+            android:label="Video"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".SplashScreen"
             android:noHistory="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".SingleImage"
